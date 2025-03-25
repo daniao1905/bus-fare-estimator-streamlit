@@ -1,6 +1,6 @@
-# Bus Fare Estimator - Streamlit App
+# Bus Fare Estimator (Autocomplete) - Streamlit App
 
-Calculadora automática de tarifas de autobuses según ruta y tipo de vehículo, usando Google Maps API.
+Calcula tarifas de autobuses en Japón usando Google Maps y autocompletado de direcciones.
 
 ## Cómo usar
 
