@@ -1,22 +1,20 @@
-# Bus Fare Estimator (Autocomplete) - Streamlit App
+# Bus Fare Estimator con Mapa Dinámico
 
-Calcula tarifas de autobuses en Japón usando Google Maps y autocompletado de direcciones.
+Calculadora visual de tarifas de autobús en Japón con mapa activo y entradas de paradas múltiples.
 
 ## Cómo usar
 
-1. Clona el repositorio
-2. Crea el archivo `.streamlit/secrets.toml` con tu Google Maps API Key
-3. Ejecuta localmente:
+1. Descomprime y crea `.streamlit/secrets.toml` con tu API Key:
+```toml
+GOOGLE_MAPS_API_KEY = "TU_API_KEY"
+```
+2. Ejecuta:
 ```bash
 streamlit run app.py
 ```
 
 ## Deploy en Streamlit Cloud
 
-1. Sube este repo a GitHub
-2. Ve a https://streamlit.io/cloud
-3. Conecta tu cuenta GitHub y selecciona este repositorio
-4. Agrega tu API Key en `Secrets`:
-```toml
-GOOGLE_MAPS_API_KEY = "TU_API_KEY"
-```
+1. Sube este repo a GitHub.
+2. Conéctalo desde https://streamlit.io/cloud
+3. Agrega tu API Key en Secrets.
