@@ -1,20 +1,20 @@
-# Bus Fare Estimator con Mapa Dinámico
+# Bus Fare Estimator (Lógica Real + Mapa + Autocompletado)
 
-Calculadora visual de tarifas de autobús en Japón con mapa activo y entradas de paradas múltiples.
+Calcula tarifas de transporte con lógica real según facturas, mínimos base y distancias.
 
 ## Cómo usar
 
-1. Descomprime y crea `.streamlit/secrets.toml` con tu API Key:
+1. Descomprime este zip y crea el archivo `.streamlit/secrets.toml`:
 ```toml
 GOOGLE_MAPS_API_KEY = "TU_API_KEY"
 ```
-2. Ejecuta:
+2. Ejecuta con:
 ```bash
 streamlit run app.py
 ```
 
-## Deploy en Streamlit Cloud
+## En Streamlit Cloud
 
-1. Sube este repo a GitHub.
-2. Conéctalo desde https://streamlit.io/cloud
-3. Agrega tu API Key en Secrets.
+1. Sube a GitHub
+2. Conéctalo en https://streamlit.io/cloud
+3. Agrega tu API Key en Secrets
