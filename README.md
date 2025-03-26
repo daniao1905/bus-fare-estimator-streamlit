@@ -1,6 +1,6 @@
-# Calculadora de Tarifas Escalonadas - Streamlit App
+# Calculadora de Tarifas Escalonadas + Autocompletado + Mapa final
 
-Calculadora de tarifas basada en distancia real y modelo escalonado según bloques de km.
+Sistema de tarifas por km con lógica real y soporte visual + sugerencias automáticas.
 
 ## Cómo usar
 
@@ -14,8 +14,8 @@ GOOGLE_MAPS_API_KEY = "TU_API_KEY"
 streamlit run app.py
 ```
 
-## Deploy en Streamlit Cloud
+## En Streamlit Cloud
 
-1. Sube este repositorio a GitHub
+1. Sube a GitHub
 2. Conéctalo desde https://streamlit.io/cloud
-3. Agrega tu API Key en la sección "Secrets"
+3. Agrega tu API Key en Secrets
